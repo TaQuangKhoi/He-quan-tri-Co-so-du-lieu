@@ -24,3 +24,26 @@ AND VD.DOI_MA = 3
  AND C.CLB_MA = D.CLB_MA
  AND D.DOI_MA = VD.DOI_MA
  AND V.LT > D.LT
+
+ -- e. ??a ch? và mã s? các câu l?c b?
+ -- có 1 ho?c nhi?u ??i tham d? tr?n ??u di?n ra trong phòng mã s? 17 ngày 12/6/90
+ SELECT C.*
+ FROM CLB C, DOI_TD DT, TD T
+ WHERE C.CLB_MA = DT.CLB_MA
+ AND T.TD_NGAY = '12/6/90'
+
+ -- f. Danh sách các tr?n ??u
+ -- b?t ??u và k?t thúc trong kho?ng th?i gian t? 13g và 16g
+ -- di?n ra trên 1 sân c?a phòng mã s? 49
+ -- ngày 8/5/90
+ SELECT 
+ FROM 
+
+ -- g. ??a ch? và tên các v?n ??ng viên
+ -- ?ã ch?i ho?c s? ch?i ??i l?i ??i mã s? 1 c?a câu l?c b? mã s? 50
+
+ -- h. S? t?i ?a các tr?n ??u có th? b?t ??u ??ng th?i trong ngày 12/6/90
+
+ -- i. V?i m?i v?n ??ng viên thu?c câu l?c b? 50,
+ -- tìm s? l??ng tr?n ??u mà anh ta ?ã tham gia
+

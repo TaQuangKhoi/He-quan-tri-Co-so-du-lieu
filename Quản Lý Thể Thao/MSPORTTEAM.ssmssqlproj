@@ -25,11 +25,11 @@
           <AssociatedConnUserName />
           <FullPath>MSPORTTEAM.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQuery1.sql">
+        <FileNode Name="Query.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-AN8O8G6\TQK:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-AN8O8G6\TQK</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQuery1.sql</FullPath>
+          <FullPath>Query.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
