@@ -43,6 +43,12 @@
           <AssociatedConnUserName />
           <FullPath>Query.sql</FullPath>
         </FileNode>
+        <FileNode Name="Thầy Hoàng - MSPORTTEAM.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:m47:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>m47</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Thầy Hoàng - MSPORTTEAM.sql</FullPath>
+        </FileNode>
       </Items>
     </LogicalFolder>
     <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
