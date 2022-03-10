@@ -11,4 +11,3 @@ Thứ tự tạo bảng:
 - DOI_TD
 - VDV
 - VDV_DOI
-- 
