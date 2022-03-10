@@ -7,13 +7,16 @@ WHERE CLB_MA = 45
 SELECT V.VDV_TEN, V.CLB_MA, VD.DOI_MA
 FROM VDV V, VDV_DOI VD
 WHERE V.CLB_MA = 27
-AND V.VDV_MA = VD.VDV_MA
-AND VD.DOI_MA = 3
+	AND VD.DOI_MA = 3
+	AND V.VDV_MA = VD.VDV_MA
 
  -- c. S? l??ng các |tr?n ??u LT1| di?n ra vào |ngày 6/16/90|
- SELECT COUNT(TD.TD_MA)
- FROM TD
- WHERE TD.TD_NGAY = '6/16/90'
+ SELECT COUNT(T.TD_MA)
+ FROM TD T, DOI_TD DT, DOI D
+ WHERE T.TD_NGAY = '6/16/90'
+ AND D.LT = 'LT1'
+ AND DT.DOI_MA = D.DOI_MA
+ AND T.TD_MA = DT.TD_MA
 
  -- d. Mã s? các câu l?c b? và mã s? các ??i
  -- trong ?ó có |nh?ng v?n ??ng viên thu?c 1 l?a tu?i nh? h?n l?a tu?i c?a ??i|
