@@ -5,12 +5,13 @@ Tạo CSDL và giải các câu hỏi: [CSDL-MSPORTTEAM.pdf](https://github.com/
 Thứ tự tạo bảng: 
 - **CLB**: CLB_MA, DOI_MA, LT, PHAI
 - **LUA_TUOI**: LT, LT_TGTD
-- DOI (cần tạo bảng CLB và LUA_TUOI trước để khóa ngoại tham chiếu tới khóa chính của 2 bảng)
-- PHONG
-- TD
-- DOI_TD
-- VDV
-- VDV_DOI
+(cần tạo bảng CLB và LUA_TUOI trước để khóa ngoại tham chiếu tới khóa chính của 2 bảng)
+- **DOI**: CLB_MA, DOI_MA, LT, PHAI
+- **PHONG**: 
+- **TD**
+- **DOI_TD**
+- **VDV**
+- **VDV_DOI**
 
 Đề truy vấn:
 - [x] a. Danh sách các vận động viên của câu lạc bộ có mã số 45 => [#1][i1]
