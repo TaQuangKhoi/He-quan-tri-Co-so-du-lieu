@@ -16,8 +16,7 @@ Thứ tự tạo bảng:
 - [x] a. Danh sách các vận động viên của câu lạc bộ có mã số 45 => [#1][i1]
 - [x] b. Tên các vận động viên của đội số 3 của câu lạc bộ có mã số 27 => [#2][i2]
 - [x] c. Số lượng các trận đấu LT1 diễn ra vào ngày 6/16/90 => [#3][i3]
-- [x] d. Mã số các câu lạc bộ và mã số các đội trong đó có những vận động viên thuộc 1 lứa tuổi => [#4][i4]
-   nhỏ hơn lứa tuổi của đội
+- [x] d. Mã số các câu lạc bộ và mã số các đội trong đó có những vận động viên thuộc 1 lứa tuổi nhỏ hơn lứa tuổi của đội => [#4][i4]
 - [ ] e. Địa chỉ và mã số các câu lạc bộ có 1 hoặc nhiều đội tham dự trận đấu diễn ra trong phòng
  mã số 17 ngày 12/6/90
 - [ ] f. Danh sách các trận đấu bắt đầu và kết thúc trong khoảng thời gian từ 13g và 16g diễn ra
