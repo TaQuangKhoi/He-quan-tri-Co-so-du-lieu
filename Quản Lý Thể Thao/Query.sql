@@ -14,26 +14,26 @@ WHERE V.CLB_MA = 27
  SELECT COUNT(T.TD_MA)
  FROM TD T, DOI_TD DT, DOI D
  WHERE T.TD_NGAY = '6/16/90'
- AND D.LT = 'LT1'
- AND DT.DOI_MA = D.DOI_MA
- AND T.TD_MA = DT.TD_MA
+	 AND D.LT = 'LT1'
+	 AND DT.DOI_MA = D.DOI_MA
+	 AND T.TD_MA = DT.TD_MA
 
  -- d. Mã s? các câu l?c b? và mã s? các ??i
  -- trong ?ó có |nh?ng v?n ??ng viên thu?c 1 l?a tu?i nh? h?n l?a tu?i c?a ??i|
  SELECT C.CLB_MA, D.DOI_MA
  FROM VDV V, DOI D, VDV_DOI VD, CLB C
  WHERE V.VDV_MA = VD.VDV_MA
- AND V.CLB_MA = C.CLB_MA
- AND C.CLB_MA = D.CLB_MA
- AND D.DOI_MA = VD.DOI_MA
- AND V.LT > D.LT
+	 AND V.CLB_MA = C.CLB_MA
+	 AND C.CLB_MA = D.CLB_MA
+	 AND D.DOI_MA = VD.DOI_MA
+	 AND V.LT > D.LT
 
  -- e. ??a ch? và mã s? các câu l?c b?
  -- có 1 ho?c nhi?u ??i tham d? tr?n ??u di?n ra trong phòng mã s? 17 ngày 12/6/90
  SELECT C.*
  FROM CLB C, DOI_TD DT, TD T
  WHERE C.CLB_MA = DT.CLB_MA
- AND T.TD_NGAY = '12/6/90'
+	AND T.TD_NGAY = '12/6/90'
 
  -- f. Danh sách các tr?n ??u
  -- b?t ??u và k?t thúc trong kho?ng th?i gian t? 13g và 16g
