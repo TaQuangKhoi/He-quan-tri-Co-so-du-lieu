@@ -13,8 +13,8 @@ Thứ tự tạo bảng:
 - VDV_DOI
 
 Đề truy vấn:
-- [x] a. Danh sách các vận động viên của câu lạc bộ có mã số 45 => [#1](i1)
-- [x] b. Tên các vận động viên của đội số 3 của câu lạc bộ có mã số 27 => [#2](i2)
+- [x] a. Danh sách các vận động viên của câu lạc bộ có mã số 45 => [#1][i1]
+- [x] b. Tên các vận động viên của đội số 3 của câu lạc bộ có mã số 27 => [#2][i2]
 - [ ] c. Số lượng các trận đấu LT1 diễn ra vào ngày 6/16/90
 - [ ] d. Mã số các câu lạc bộ và mã số các đội trong đó có những vận động viên thuộc 1 lứa tuổi
    nhỏ hơn lứa tuổi của đội
