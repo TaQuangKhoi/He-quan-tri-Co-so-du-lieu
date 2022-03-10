@@ -3,8 +3,8 @@
 Tạo CSDL và giải các câu hỏi: [CSDL-MSPORTTEAM.pdf](https://github.com/TaQuangKhoi/He-quan-tri-Co-so-du-lieu/blob/main/CSDL-MSPORTTEAM.pdf)
 
 Thứ tự tạo bảng: 
-- CLB
-- LUA_TUOI
+- **CLB**: CLB_MA, DOI_MA, LT, PHAI
+- **LUA_TUOI**: LT, LT_TGTD
 - DOI (cần tạo bảng CLB và LUA_TUOI trước để khóa ngoại tham chiếu tới khóa chính của 2 bảng)
 - PHONG
 - TD

@@ -3,7 +3,7 @@
   <Items>
     <LogicalFolder Name="Connections" Type="2" Sorted="true">
       <Items>
-        <ConnectionNode Name="DESKTOP-AN8O8G6\TQK:DESKTOP-AN8O8G6\taqua">
+        <ConnectionNode Name="DESKTOP-AN8O8G6\TQK:M47\May33">
           <Created>2022-03-10T07:17:23.6971169+07:00</Created>
           <Type>SQL</Type>
           <Server>DESKTOP-AN8O8G6\TQK</Server>
@@ -11,6 +11,18 @@
           <Authentication>Windows Authentication</Authentication>
           <InitialDB />
           <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="m47:M47\May33">
+          <Created>2022-03-10T13:26:05.4755281+07:00</Created>
+          <Type>SQL</Type>
+          <Server>m47</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
           <ExecutionTimeout>0</ExecutionTimeout>
           <ConnectionProtocol>NotSpecified</ConnectionProtocol>
           <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
@@ -26,8 +38,8 @@
           <FullPath>MSPORTTEAM.sql</FullPath>
         </FileNode>
         <FileNode Name="Query.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-AN8O8G6\TQK:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-AN8O8G6\TQK</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:m47:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>m47</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>Query.sql</FullPath>
         </FileNode>
