@@ -16,7 +16,7 @@ Thứ tự tạo bảng:
 - [x] a. Danh sách các vận động viên của câu lạc bộ có mã số 45 => [#1][i1]
 - [x] b. Tên các vận động viên của đội số 3 của câu lạc bộ có mã số 27 => [#2][i2]
 - [x] c. Số lượng các trận đấu LT1 diễn ra vào ngày 6/16/90 => [#3][i3]
-- [ ] d. Mã số các câu lạc bộ và mã số các đội trong đó có những vận động viên thuộc 1 lứa tuổi
+- [x] d. Mã số các câu lạc bộ và mã số các đội trong đó có những vận động viên thuộc 1 lứa tuổi => [#4][i4]
    nhỏ hơn lứa tuổi của đội
 - [ ] e. Địa chỉ và mã số các câu lạc bộ có 1 hoặc nhiều đội tham dự trận đấu diễn ra trong phòng
  mã số 17 ngày 12/6/90
@@ -34,3 +34,4 @@ Thứ tự tạo bảng:
 [i1]: https://github.com/TaQuangKhoi/He-quan-tri-Co-so-du-lieu/issues/1
 [i2]: https://github.com/TaQuangKhoi/He-quan-tri-Co-so-du-lieu/issues/2
 [i3]: https://github.com/TaQuangKhoi/He-quan-tri-Co-so-du-lieu/issues/3
+[i4]: https://github.com/TaQuangKhoi/He-quan-tri-Co-so-du-lieu/issues/4
