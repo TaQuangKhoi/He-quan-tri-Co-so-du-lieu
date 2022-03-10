@@ -9,3 +9,8 @@ FROM VDV V, VDV_DOI VD
 WHERE V.CLB_MA = 27
 AND V.VDV_MA = VD.VDV_MA
 AND VD.DOI_MA = 3
+
+ -- c. S? l??ng các |tr?n ??u LT1| di?n ra vào |ngày 6/16/90|
+ SELECT COUNT(TD.TD_MA)
+ FROM TD
+ WHERE TD.TD_NGAY = '6/16/90'
