@@ -14,7 +14,7 @@ Thứ tự tạo bảng:
 
 Đề truy vấn:
 - [x] a. Danh sách các vận động viên của câu lạc bộ có mã số 45 => [#1](i1)
-- [ ] b. Tên các vận động viên của đội số 3 của câu lạc bộ có mã số 27
+- [x] b. Tên các vận động viên của đội số 3 của câu lạc bộ có mã số 27 => [#2](i2)
 - [ ] c. Số lượng các trận đấu LT1 diễn ra vào ngày 6/16/90
 - [ ] d. Mã số các câu lạc bộ và mã số các đội trong đó có những vận động viên thuộc 1 lứa tuổi
    nhỏ hơn lứa tuổi của đội
@@ -32,3 +32,4 @@ Thứ tự tạo bảng:
 - [ ] l. Mã số và tên vận động viên chưa từng tham gia trận đấu nào
 
 [i1]: https://github.com/TaQuangKhoi/He-quan-tri-Co-so-du-lieu/issues/1
+[i2]: https://github.com/TaQuangKhoi/He-quan-tri-Co-so-du-lieu/issues/2
