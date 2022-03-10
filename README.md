@@ -14,7 +14,7 @@ Thứ tự tạo bảng:
 
 Đề truy vấn:
 - [x] a. Danh sách các vận động viên của câu lạc bộ có mã số 45 => [#1](i1)
-- [ ] b. Tên các vận động viên của đoi số 3 của câu lạc bộ có mã số 27
+- [ ] b. Tên các vận động viên của đội số 3 của câu lạc bộ có mã số 27
 - [ ] c. Số lượng các trận đấu LT1 diễn ra vào ngày 6/16/90
 - [ ] d. Mã số các câu lạc bộ và mã số các đội trong đó có những vận động viên thuộc 1 lứa tuổi
    nhỏ hơn lứa tuổi của đội
