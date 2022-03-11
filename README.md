@@ -1,5 +1,7 @@
 # Hệ quản trị Cơ sở dữ liệu
 ## Ngày 3 tháng 3 năm 2022 (mình nghỉ do thành F1)
+(Sau khi làm xong thì chuyển nội dung của readme này vào Quản Lý Thể Thao)
+
 Tạo CSDL và giải các câu hỏi: [CSDL-MSPORTTEAM.pdf](https://github.com/TaQuangKhoi/He-quan-tri-Co-so-du-lieu/blob/main/CSDL-MSPORTTEAM.pdf)
 Tài Liệu Học Tập: [Repo Tai-Lieu-Hoc-Tap/HK5/Hệ quản trị CSDL](https://github.com/DH20LT/Tai-Lieu-Hoc-Tap/tree/main/HK5%20-%20Now/H%E1%BB%87%20qu%E1%BA%A3n%20tr%E1%BB%8B%20c%C6%A1%20s%E1%BB%9F%20d%E1%BB%AF%20li%E1%BB%87u)
 
