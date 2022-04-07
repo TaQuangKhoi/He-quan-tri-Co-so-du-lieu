@@ -21,10 +21,11 @@ AND K.MASV = S.MASV
 go
 
 --d)
-select sv.Ten, kq.MaHP
-from KQua kq, SVien sv
-where sv.MaSV = kq.MaSV
-and kq.Diem > 7
+select S.TEN, K.DIEM, H.MAMH
+from KQUA K, HPHAN H, SVIEN S
+where K.MAHP = H.MAHP
+AND K.MASV = S.MASV
+AND K.DIEM > 7
 go
 
 --e)
