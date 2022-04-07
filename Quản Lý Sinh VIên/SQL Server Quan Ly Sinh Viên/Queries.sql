@@ -1,9 +1,9 @@
 --9 Create queries
 
 --a)
-select Ten
-from SVien
-where MaKhoa = 'CNTT'
+select TEN
+from SVIEN
+where MAKHOA = 'CNTT'
 go
 
 --b)
