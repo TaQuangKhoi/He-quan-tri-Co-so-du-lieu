@@ -128,22 +128,26 @@ values
 go
 
 --6
-insert KQua
+insert KQUA
 values
 (25, 102, 7),
 (25, 135, 9)
 go
 
 --7
-update KQua
+update KQUA
 set Diem = 9
-where MaHP = 102
-and MaSV = 8
+where MAHP = 102
+and MASV = 8
 go
 
+SELECT DIEM, MAHP, MASV
+FROM KQUA
+WHERE MASV = 8
+
 --8
-delete from KQua
-where MaSV = 8
-and MaHP = 135
-and Diem = 10
+delete from KQUA
+where MASV = 8
+and MAHP = 135
+and DIEM = 10
 go
