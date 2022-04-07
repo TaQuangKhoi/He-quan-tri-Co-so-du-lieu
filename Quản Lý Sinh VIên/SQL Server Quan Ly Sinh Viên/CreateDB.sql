@@ -9,7 +9,8 @@ create table KHOA
 MAKHOA char(4),
 TENKHOA nvarchar(30),
 NAMTHANHLAP int,
-constraint PK_Khoa primary key(MAKHOA)
+constraint PK_Khoa primary key(MAKHOA),
+constraint UN_TENKHOA unique (TENKHOA)
 )
 go
 
@@ -154,8 +155,8 @@ where MaKhoa = 'CNTT'
 go
 
 --b)
-select TenMH, TinChi
-from MonHoc
+select TENMH, TINCHI
+from MHOC
 go
 
 --c)
