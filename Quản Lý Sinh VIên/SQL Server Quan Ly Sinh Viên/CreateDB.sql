@@ -21,7 +21,7 @@ TEN nvarchar(30),
 NAM int,
 MAKHOA char(4),
 constraint PK_SVien primary key(MASV),
-constraint CK_SVien check(NAM in (1, 2, 3, 4)),
+constraint CK_SVien check(NAM in (1, 2, 3, 4)), -- constraint CK_NAM check (nam > 0 and nam < 5),
 constraint FK_SVien_Khoa foreign key (MAKHOA) references Khoa(MAKHOA)
 )
 go
@@ -33,6 +33,7 @@ TENMH nvarchar(30),
 TINCHI int,
 MAKHOA char(4),
 constraint PK_MonHoc primary key(MAMH),
+constraint UN_TENMH unique (TENMH),
 constraint FK_MonHoc_Khoa foreign key(MAKHOA) references Khoa(MAKHOA)
 )
 go
@@ -41,19 +42,20 @@ create table DKIEN
 (
 MAMH_TRUOC char(8),
 MAMH char(8),
-constraint PK_DKien primary key(MAMH_TRUOC,MAMH),
-constraint FK_DKien_MonHoc foreign key(MaMH) references MONHOC(MAMH)
+constraint PK_DKien foreign key(MAMH_TRUOC) references MHOC(MAMH),
+constraint FK_DKien_MonHoc foreign key(MaMH) references MHOC(MAMH)
 )
 go
 
 create table HPHAN
 (
 MAHP int,
-TENMAHP nvarchar(40),
+MAMH char(8),
 HOCKY int,
 NAM int,
 GV nvarchar(30),
 constraint PK_HPhan primary key(MAHP),
+constraint FK_HOCPHAN_MONHOC foreign key (MAMH) references MHOC(MAMH)
 )
 go
 
@@ -145,31 +147,3 @@ where MaSV = 8
 and MaHP = 135
 and Diem = 10
 go
-
---9 Create queries
-
---a)
-select Ten
-from SVien
-where MaKhoa = 'CNTT'
-go
-
---b)
-select TENMH, TINCHI
-from MHOC
-go
-
---c)
-select *
-from KQua
-where MaSV = 8
-go
-
---d)
-select sv.Ten, kq.MaHP
-from KQua kq, SVien sv
-where sv.MaSV = kq.MaSV
-and kq.Diem > 7
-go
-
---e)
