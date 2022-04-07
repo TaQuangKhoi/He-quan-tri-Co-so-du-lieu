@@ -73,9 +73,9 @@ go
 
 insert KHOA
 values
-('CNTT', N'Công nghê thông tin', 1995),
-('VL', N'V?t Lý', 1976),
-('TOAN', N'Toán', 1976)
+('CNTT', N'Cong nghe thong tin', 1995),
+('VL', N'Vat Ly', 1976),
+('TOAN', N'Toan', 1976)
 go
 
 insert SVIEN
@@ -144,6 +144,7 @@ go
 SELECT DIEM, MAHP, MASV
 FROM KQUA
 WHERE MASV = 8
+AND MAHP = 102
 
 --8
 delete from KQUA
@@ -151,3 +152,8 @@ where MASV = 8
 and MAHP = 135
 and DIEM = 10
 go
+SELECT *
+FROM KQUA
+WHERE MASV = 8
+and MAHP = 135
+and DIEM = 10
