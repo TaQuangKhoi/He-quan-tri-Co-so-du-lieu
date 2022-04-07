@@ -13,8 +13,11 @@ go
 
 --c)
 select *
-from KQua
-where MaSV = 8
+from KQUA K, HPHAN H, MHOC M, SVIEN S
+where K.MASV = 8
+AND K.MAHP = H.MAHP
+AND H.MAMH = M.MAMH
+AND K.MASV = S.MASV
 go
 
 --d)
