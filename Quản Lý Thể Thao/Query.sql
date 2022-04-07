@@ -51,3 +51,8 @@ WHERE V.CLB_MA = 27
  -- i. V?i m?i v?n ??ng viên thu?c câu l?c b? 50,
  -- tìm s? l??ng tr?n ??u mà anh ta ?ã tham gia
 
+ --j
+
+ --k
+
+ --l
