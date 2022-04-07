@@ -94,11 +94,17 @@ values
 ('PHYS3332', N'Vat lý dai cuong', 3, 'VL')
 go
 
-insert DKIEN
+insert into DKIEN (MAMH, MAMH_TRUOC)
 values
 ('COSC3380', 'COSC3320'),
 ('COSC3380', 'MATH2410'),
 ('COSC3320', 'COSC1310')
+go
+
+-- Insert data for 9g
+insert into DKIEN (MAMH, MAMH_TRUOC)
+values
+('COSC3320', 'COSC3380')
 go
 
 insert HPHAN
