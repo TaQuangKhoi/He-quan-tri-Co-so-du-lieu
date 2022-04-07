@@ -87,24 +87,24 @@ go
 
 insert MHOC
 values
-('COSC1310', N'Nh?p môn công nghê thông tin', 4, 'CNTT' ),
-('COSC3320', N'C?u trúc d? li?u', 4, 'CNTT'),
-('MATH2410', N'Toán r?i r?c', 3, 'TOAN'),
-('COSC3380', N'C? s? d? li?u', 3, 'CNTT'),
-('PHYS3332', N'V?t lý ??i c??ng', 3, 'VL')
+('COSC1310', N'Nhap môn công nghê thông tin', 4, 'CNTT' ),
+('COSC3320', N'Cau trúc du lieu', 4, 'CNTT'),
+('MATH2410', N'Toán roi rac', 3, 'TOAN'),
+('COSC3380', N'Co so du lieu', 3, 'CNTT'),
+('PHYS3332', N'Vat lý dai cuong', 3, 'VL')
 go
 
 insert DKIEN
 values
-('COSC3380','COSC3320'),
+('COSC3380', 'COSC3320'),
 ('COSC3380', 'MATH2410'),
 ('COSC3320', 'COSC1310')
 go
 
 insert HPHAN
 values
-(85, 'MATH2410', 1, 1996, N'Kim'),
-(92, 'COSC1310', 1, 1996, N'An'),
+( 85, 'MATH2410', 1, 1996, N'Kim'),
+( 92, 'COSC1310', 1, 1996, N'An'),
 (102, 'COSC3320', 2, 1997, N'Nhiên'),
 (112, 'MATH2410', 1, 1997, N'Vân'),
 (119, 'COSC1310', 1, 1997, N'An'),
