@@ -1,3 +1,5 @@
+Tuần sau học chương 3
+
 # Hệ quản trị Cơ sở dữ liệu
 ## Ngày 3 tháng 3 năm 2022 (mình nghỉ do thành F1)
 (Sau khi làm xong thì chuyển nội dung của readme này vào Quản Lý Thể Thao)
