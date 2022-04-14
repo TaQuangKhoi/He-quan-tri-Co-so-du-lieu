@@ -79,7 +79,7 @@ select *
 from VDV vdv
 where vdv.VDV_MA not in (
     select distinct vdv.VDV_MA
-    from VDV vdv, VDV DOI vdvd, DOI TD dtd
+    from VDV vdv, VDV_DOI vdvd, DOI_TD dtd
     where vdv.CLB_MA = dtd.CLB_MA
         and vdv.VDV_MA = vdvd.VDV_MA
         and vdvd.DOI_MA dtd.DOI_MA
