@@ -49,25 +49,27 @@ SELECT
 SELECT
 
  -- j 
-select vdv.mavdv, vdv.tenvdv, clb.dcclb,
+select vdv.VDV_MA, vdv.tenvdv, clb.dcclb,
 dtd.maclb, count(dtd.matd)
 from CLB clb, VDV vdv, VDV_DOI vdvd, DOI_TD dtd
-where clb.maclb = vdv.maclb
-	and vdv.mavdv = vdvd.mavdv
+WHERE clb.maclb = vdv.maclb
+	and vdv.VDV_MA = vdvd.VDV_MA
 	and vdvd.madoi = dtd.madoi
 	and vdv.maclb dtd.maclb
-group by vdv.mavdv, vdv. tenvdv, clb.dcclb, dtd.maclb
+group by vdv.VDV_MA, vdv. tenvdv, clb.dcclb, dtd.maclb
 having count(dtd.matd) >= ALL (
 	select count (dtd.matd)
-	from CLB clb, VANDONGVIEN vdv, VDV DOI vdvd, DOI_TD dtd
-	where clb.maclb = vdv.maclb
-		and vdv.mavdv = vdvd.mavdv
+	from CLB clb, VDV vdv, VDV_DOI vdvd, DOI_TD dtd
+	WHERE clb.maclb = vdv.maclb
+		and vdv.VDV_MA = vdvd.VDV_MA
 		and vdvd.madoi = dtd.madoi
 		and vdv.maclb = dtd.maclb
-	group by vdv. mavdv, vdv.tenvdv, clb.dcclb, dtd.maclb
+	group by vdv. VDV_MA, vdv.tenvdv, clb.dcclb, dtd.maclb
 )
  -- k 
-SELECT
+SELECT 
+FROM DOI d, DOI_TD dtd, TD td
+WHERE 
 
  -- l 
 SELECT
