@@ -68,7 +68,7 @@ having count(dtd.matd) >= ALL (
 )
  -- k 
 SELECT 
-FROM DOI d, DOI_TD dtd, TD td
+FROM TD td, 
 WHERE 
 
  -- l 

@@ -8,9 +8,9 @@ j. Tìm VDV tham gia bao nhiêu trận đấu
 
     Subquery để so sánh danh sách với số lớn nhất đó
 
-k. Những doi9659 tham gia tất cả trận đấu ở phòng 49
+k. Những đội tham gia tất cả trận đấu ở phòng 49
 
-    - [ ] Tìm số lượng trận đấu diển ra ở phòng 49
+    - [ ] Tìm số lượng trận đấu diễn ra ở phòng 49
 
     - [ ] Mỗi đội trong phòng 49 chơi bao nhiêu trận
 
