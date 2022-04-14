@@ -67,9 +67,9 @@ having count(dtd.matd) >= ALL (
 	group by vdv. VDV_MA, vdv.tenvdv, clb.dcclb, dtd.maclb
 )
  -- k 
-SELECT 
-FROM TD td, 
-WHERE 
+SELECT COUNT(*)
+FROM TD td, PHONG p
+WHERE p.PHG_MA = 49
 
  -- l 
 SELECT
