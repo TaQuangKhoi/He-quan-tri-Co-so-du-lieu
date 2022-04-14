@@ -39,7 +39,8 @@ WHERE V.CLB_MA = 27
  FROM 
 
  -- g 
-SELECT
+SELECT 
+FROM 
 
  -- h 
 SELECT
@@ -48,8 +49,23 @@ SELECT
 SELECT
 
  -- j 
-SELECT
-
+select vdv.mavdv, vdv.tenvdv, clb.dcclb,
+dtd.maclb, count(dtd.matd)
+from CLB clb, VANDONGVIEN vdv, VDV DOI vdvd, DOI TD dtd
+where clb.maclb = vdv.maclb
+	and vdv.mavdv = vdvd.mavdv
+	and vdvd.madoi = dtd.madoi
+	and vdv.maclb dtd.maclb
+group by vdv.mavdv, vdv. tenvdv, clb.dcclb, dtd.maclb
+having count(dtd.matd) >= ALL (
+	select count (dtd.matd)
+	from CLB clb, VANDONGVIEN vdv, VDV DOI vdvd, DOI_TD dtd
+	where clb.maclb = vdv.maclb
+		and vdv.mavdv = vdvd.mavdv
+		and vdvd.madoi = dtd.madoi
+		and vdv.maclb = dtd.maclb
+	group by vdv. mavdv, vdv.tenvdv, clb.dcclb, dtd.maclb
+)
  -- k 
 SELECT
 
