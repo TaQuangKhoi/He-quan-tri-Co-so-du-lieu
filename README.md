@@ -36,3 +36,6 @@ Thứ tự tạo bảng:
 [i4]: https://github.com/TaQuangKhoi/He-quan-tri-Co-so-du-lieu/issues/4
 [i5]: https://github.com/TaQuangKhoi/He-quan-tri-Co-so-du-lieu/issues/5
 [i6]: https://github.com/TaQuangKhoi/He-quan-tri-Co-so-du-lieu/issues/6
+
+## Ngày 7 Tháng 4 Năm 2022
+Quản Lý Sinh Viên
