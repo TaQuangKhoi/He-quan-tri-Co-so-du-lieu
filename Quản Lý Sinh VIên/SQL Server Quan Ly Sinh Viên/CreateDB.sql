@@ -87,11 +87,11 @@ go
 
 insert MHOC
 values
-('COSC1310', N'Nhap môn công nghê thông tin', 4, 'CNTT' ),
-('COSC3320', N'Cau trúc du lieu', 4, 'CNTT'),
-('MATH2410', N'Toán roi rac', 3, 'TOAN'),
+('COSC1310', N'Nhap mon cong nghe thong tin', 4, 'CNTT' ),
+('COSC3320', N'Cau truc du lieu', 4, 'CNTT'),
+('MATH2410', N'Toan roi rac', 3, 'TOAN'),
 ('COSC3380', N'Co so du lieu', 3, 'CNTT'),
-('PHYS3332', N'Vat lý dai cuong', 3, 'VL')
+('PHYS3332', N'Vat ly dai cuong', 3, 'VL')
 go
 
 insert into DKIEN (MAMH, MAMH_TRUOC)
@@ -111,10 +111,10 @@ insert HPHAN
 values
 ( 85, 'MATH2410', 1, 1996, N'Kim'),
 ( 92, 'COSC1310', 1, 1996, N'An'),
-(102, 'COSC3320', 2, 1997, N'Nhiên'),
-(112, 'MATH2410', 1, 1997, N'Vân'),
+(102, 'COSC3320', 2, 1997, N'Nhien'),
+(112, 'MATH2410', 1, 1997, N'Van'),
 (119, 'COSC1310', 1, 1997, N'An'),
-(135, 'COSC3380', 1, 1997, N'S?n')
+(135, 'COSC3380', 1, 1997, N'Son')
 go
 
 insert KQUA
