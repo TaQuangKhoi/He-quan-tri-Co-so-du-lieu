@@ -51,7 +51,7 @@ SELECT
  -- j 
 select vdv.mavdv, vdv.tenvdv, clb.dcclb,
 dtd.maclb, count(dtd.matd)
-from CLB clb, VANDONGVIEN vdv, VDV DOI vdvd, DOI TD dtd
+from CLB clb, VDV vdv, VDV_DOI vdvd, DOI_TD dtd
 where clb.maclb = vdv.maclb
 	and vdv.mavdv = vdvd.mavdv
 	and vdvd.madoi = dtd.madoi
