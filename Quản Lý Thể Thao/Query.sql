@@ -82,5 +82,5 @@ where vdv.VDV_MA not in (
     from VDV vdv, VDV_DOI vdvd, DOI_TD dtd
     where vdv.CLB_MA = dtd.CLB_MA
         and vdv.VDV_MA = vdvd.VDV_MA
-        and vdvd.DOI_MA dtd.DOI_MA
+        and vdvd.DOI_MA = dtd.DOI_MA
 )
