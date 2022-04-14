@@ -49,27 +49,38 @@ SELECT
 SELECT
 
  -- j 
-select vdv.VDV_MA, vdv.tenvdv, clb.dcclb,
-dtd.maclb, count(dtd.matd)
-from CLB clb, VDV vdv, VDV_DOI vdvd, DOI_TD dtd
-WHERE clb.maclb = vdv.maclb
+SELECT vdv.VDV_MA, vdv.tenvdv, clb.dcclb,
+dtd.CLB_MA, count(dtd.matd)
+FROM CLB clb, VDV vdv, VDV_DOI vdvd, DOI_TD dtd
+WHERE clb.CLB_MA = vdv.CLB_MA
 	and vdv.VDV_MA = vdvd.VDV_MA
-	and vdvd.madoi = dtd.madoi
-	and vdv.maclb dtd.maclb
-group by vdv.VDV_MA, vdv. tenvdv, clb.dcclb, dtd.maclb
+	and vdvd.DOI_MA = dtd.DOI_MA
+	and vdv.CLB_MA dtd.CLB_MA
+group by vdv.VDV_MA, vdv. tenvdv, clb.dcclb, dtd.CLB_MA
 having count(dtd.matd) >= ALL (
-	select count (dtd.matd)
-	from CLB clb, VDV vdv, VDV_DOI vdvd, DOI_TD dtd
-	WHERE clb.maclb = vdv.maclb
+	SELECT count (dtd.matd)
+	FROM CLB clb, VDV vdv, VDV_DOI vdvd, DOI_TD dtd
+	WHERE clb.CLB_MA = vdv.CLB_MA
 		and vdv.VDV_MA = vdvd.VDV_MA
-		and vdvd.madoi = dtd.madoi
-		and vdv.maclb = dtd.maclb
-	group by vdv. VDV_MA, vdv.tenvdv, clb.dcclb, dtd.maclb
+		and vdvd.DOI_MA = dtd.DOI_MA
+		and vdv.CLB_MA = dtd.CLB_MA
+	group by vdv. VDV_MA, vdv.tenvdv, clb.dcclb, dtd.CLB_MA
 )
  -- k 
 SELECT COUNT(*)
 FROM TD td, PHONG p
 WHERE p.PHG_MA = 49
 
+SELECT 
+FROM
+
  -- l 
-SELECT
+select *
+from VDV vdv
+where vdv.VDV_MA not in (
+    select distinct vdv.VDV_MA
+    from VDV vdv, VDV DOI vdvd, DOI TD dtd
+    where vdv.CLB_MA = dtd.CLB_MA
+        and vdv.VDV_MA = vdvd.VDV_MA
+        and vdvd.DOI_MA dtd.DOI_MA
+)
