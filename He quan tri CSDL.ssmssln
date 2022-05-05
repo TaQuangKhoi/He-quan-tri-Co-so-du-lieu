@@ -5,7 +5,9 @@ VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "MSPORTTEAM", "Quản Lý Thể Thao\MSPORTTEAM.ssmssqlproj", "{5B461BEB-DA69-48AC-A98A-C81FC082B50C}"
 EndProject
-Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "SQL Server Quan Ly Sinh Viên", "Quản Lý Sinh VIên\SQL Server Quan Ly Sinh Viên\SQL Server Quan Ly Sinh Viên.ssmssqlproj", "{64F9815C-4267-43D8-980F-D0BCC3E01892}"
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Lap-trinh-voi-SQL", "Lap-trinh-voi-SQL\Lap-trinh-voi-SQL.ssmssqlproj", "{D08C0521-E0F3-43C6-9D49-2940ECD1E56E}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "MSTUDENT", "Quản Lý Sinh VIên\MSTUDENT\MSTUDENT.ssmssqlproj", "{69C0E4CC-F735-4EFD-AA76-D1100E27C1E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,8 +15,9 @@ Global
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{5B461BEB-DA69-48AC-A98A-C81FC082B50C}.Default|Default.ActiveCfg = Default
-		{EC99462B-D0E6-4A06-9A81-C97CAF0D61B3}.Default|Default.ActiveCfg = Default
-		{64F9815C-4267-43D8-980F-D0BCC3E01892}.Default|Default.ActiveCfg = Default
+		{D08C0521-E0F3-43C6-9D49-2940ECD1E56E}.Default|Default.ActiveCfg = Default
+		{C9FEAD98-477C-4076-A1F5-D847D046A384}.Default|Default.ActiveCfg = Default
+		{69C0E4CC-F735-4EFD-AA76-D1100E27C1E1}.Default|Default.ActiveCfg = Default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

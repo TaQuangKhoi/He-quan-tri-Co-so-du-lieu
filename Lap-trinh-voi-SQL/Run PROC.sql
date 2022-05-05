@@ -1,3 +1,3 @@
 exec procGetStudents 'CNTT'
 
-exec procKetQuaHocTapTheoMSSV '8'
+exec procKetQuaHocTapTheoMSSV 8

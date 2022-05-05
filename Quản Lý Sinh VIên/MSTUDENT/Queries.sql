@@ -1,3 +1,4 @@
+USE MSTUDENT
 --9 Create queries
 
 --a)
@@ -31,7 +32,7 @@ go
 --e)
 SELECT S.TEN
 FROM SVIEN S, KHOA K, MHOC M
-WHERE TENMH = 'To�n r?i r?c'
+WHERE TENMH = 'Toan r?i r?c'
 AND M.MAKHOA = K.MAKHOA
 AND K.MAKHOA = S.MAKHOA
 
